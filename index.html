@@ -6,14 +6,20 @@
         <main>
             
             <header>
-                <input type="color">
+                <input type="color" id="input-color">
                 <select>
-                    <option>Please choose an option</option>
+                    <option value="monochrome" >Monochrome</option>
+                    <option value="monochrome-dark" >Monochrome-dark</option>
+                    <option value="monochrome-light" >Monochrome-light</option>
+                    <option value="analogic" >Analogic</option>
+                    <option value="complement" >Complement</option>
+                    <option value="analogic-complement" >Analogic-Complement</option>
+                    <option value="triad" >Triad</option>
                 </select>
-                <button>Get color schemes</button>
+                <button id="get-scheme">Get color schemes</button>
             </header>
             
-            <section>
+            <section id="section">
                 <div class="color" style="background-color:red;"></div>
                 <div class="color" style="background-color:blue;"></div>
                 <div class="color" style="background-color:yellow;"></div>
@@ -21,7 +27,7 @@
                 <div class="color" style="background-color:purple;"></div>
             </section>
             
-            <footer>
+            <footer class="hex-list">
                 <div><p class="nmb-display">#123456</p></div>
                 <div><p class="nmb-display">#123456</p></div>
                 <div><p class="nmb-display">#123456</p></div>
