@@ -62,3 +62,7 @@ footer > div {
     padding: 1em;
     color: #D5D4D8;
 }
+
+.color {
+    min-height: 60vH
+}
